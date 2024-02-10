@@ -15,3 +15,11 @@ app.get("", (req, res, next) => {
  
   res.sendFile(_retfile);
  });
+ app.get("/aboutus", (req, res, next) => { 
+   // show the page
+      const __filename = fileURLToPath(import.meta.url);
+   const __dirname = path.dirname(__filename);
+   const _retfile = path.join(__dirname, 'aboutus.html');
+  
+   res.sendFile(_retfile);
+  });
