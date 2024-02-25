@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:white ;
+    color: rgb(160, 93, 104);
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
+    overflow-x: hidden;
+    width: 100%;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    overflow-x: hidden;
+
+}
+.logo {
+    font-size: 25px;
+    color: rgb(160, 93, 104);
+    text-decoration: none;
+    font-weight: 600;
+  
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover {
+    color: rgb(160, 93, 104);
+}
+.navbar a.active {
+    color: rgb(160, 93, 104);
+}
+.home {
+    height: 500vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    top: 0;
+    bottom: 0;
+}
+.home-content {
+    background: transparent;
+    overflow-x: hidden;
+    height: 200vh;
+    position: absolute;
+    left: 0;
+   
+}
+.home-content-2 {
+    background: transparent;
+    overflow-x: hidden;
+    height: 200vh;
+    position: absolute !important;
+    right: 0 !important; 
+}
+.home-content h4 {
+    font-size: 45px;
+    font-weight: 700;
+   
+}
+.home-content p {
+    font-size: 20px;
+}
+.container {
+    height: 200vh;
+}
+.slider-wrapper {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 46px;
+    
+    
+}
+.slider {
+    display: flex;
+    aspect-ratio: 40/10;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    margin: auto;
+}
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+    background-color: white;
+}
+.slider-nav a:hover {
+    opacity: 1;
+}
+h4 {
+    font-size: 48px;
+    margin-right: 50% !important;
+    background-color: pink;
+    width: 50%;
+    text-align: center;
+    position: relative;
+
+   
+}
+main {
+    padding: 5px;
+    margin: 0 auto;
+    text-align: justify;
+    position: relative;
+   
+   
+}
+article {
+    margin-right: 50% !important;
+    align-items: left !important;
+    position: relative !important;
+}
+footer {
+    text-align: center;
+    background: pink;
+    color: white;
+    margin-top: auto;
+    width: inherit !important;
+    max-width: inherit !important;
+    right: 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+ .sticky-footer {
+    position: sticky;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+ }
+ 
+ .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+ }
+ .footer-content p {
+    
+    margin: 10px auto;
+    
+    font-size: 14px;
+ }
+ .socials {
+    list-style: none;
+   display: flex;
+   align-items: center;
+    margin: 1rem 0 3rem 0;
+ }
+ .socials li {
+    margin: 0 10px;
+ }
+ .socials a {
+    text-decoration: none;
+    color: white;
+ }
+ .socials a i {
+    font-size: 2rem;
+    transition: color -4s ease;
+ }
+ .socials a:hover i{
+    color: rgb(160, 93, 104);
+ }
+
+ .footer-bottom{
+    background: rgb(160, 93, 104);
+    padding: 8px 0;
+    text-align: center;
+    width: inherit !important;
+    max-width: inherit !important;
+ }
+ .footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+ }
+ element {
+     overflow-x: hidden;
+ }
+ 
+ .content-wrapper{
+    margin: 0px auto;
+ 
+    background-color: white;
+    background-size: 5px 5px;
+ }
+ body > footer {
+    margin: 0px;
+    padding: 0px;
+  
+ }
+ 
+ 

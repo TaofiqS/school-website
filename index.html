@@ -1,57 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freshman Caucus Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</head>   
-<body> 
-<div class="mx-auto"></div>
- <div class="container">
-    <nav class="navbar fixed-top navbar-expand-lg border-body" style="background-color: #ef9bbc;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resources</a>
-                
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
-              </li>
-              <li class="nav-item dropdown faded">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Team
-                </a>
-                <ul class="dropdown-menu" style="background-color: #f5c3d7; font-weight: 2px;">
-                  <li><a class="dropdown-item" href="/aboutus#executive">Executive Department</a></li>
-                  <li><a class="dropdown-item" href="/aboutus#it">IT Department</a></li>
-                  <li><a class="dropdown-item" href="/aboutus#events">Events Department</a></li>
-                  <li><a class="dropdown-item" href="/aboutus#graphics">Graphic Department</a></li>
-                  <li><a class="dropdown-item" href="/aboutus#internals">Internals Department</a></li>
-                  <li><a class="dropdown-item" href="/aboutus#finance">Finance Department</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-       
-    </nav>
- </div>
- <div class="logo-halfpage">
-  <img class="logo" src="logobig.png">
- </div>
- <p>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ <title>Freshman Caucus Website</title>
+</head>
+<section class="container">
+  <div class="slider-wrapper">
+    <div class="slider">
+      <img id="slide-1" src="/Users/taofiq/Downloads/IMG_0017.jpg"/>
+      <img id="slide-2" src="/Users/taofiq/Downloads/IMG_2450 (1).jpg"/>
+      <img id="slide-3" src="/Users/taofiq/Downloads/IMG_0013.jpg"/>
+   
+    </div>
+    <div class="slider-nav">
+      <a href="#slide-1"></a>
+      <a href="#slide-2"></a>
+      <a href="#slide-3"></a>
   
- </p>
-</body>
+    </div>
+  </div>
+</section>
+<body>
+<div class="content-wrapper">
+  <header class="header"><a href="#" class="logo"<img src="/Users/taofiq/Downloads/IMG_5618_adobe_express.png"> Freshman Caucus</a>
+  <nav class="navbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="Events.html">Events & Opportunities</a> 
+    <a href="Team.html">Team</a>
+  </nav>
+  </header>
+<section class="home">
+  <div class="home-content">
+    <h4> ABOUT US</h4>
+    <br>
+    <br>
+    <main>
+      <article>
+            <p>The Freshman Caucus lead by Mufei Yu and Johanna Li organizes exciting events and fundraisers
+              to help raise money for and support our Stuyvesant. We strive to create a fun and engaging 
+              environment for our student body, as we understand that the intense rigor and pressure of 
+              transitioning to Freshman year. It can be overwhelming but we work to help our peers foster
+              valuable friendships and connections through the variety of activities we organize. From the 
+              creative events & fundraisers to our various sources of academic opportunities, we work to lend
+              a hand to the fellow Freshman and improve the overall school environment. As the Freshman Caucus,
+              we're thankful for the chance to support Stuyvesant freshman and eager to lead toward a better 
+              future. 
+              <br>
+              <br>
+              -Executive Department
+            </p>
+            <br>
+            <br>
+            <br>
+            <h4>SPECTATOR</h4>
+            <br>
+            <br>
+            <style>
+              widget {
+                position: relative;
+                width: 800;
+                height: 5000;
+                overflow: hidden;
+              }
+              iframeContent{
+                position: absolute;
+                width: 300px;
+                height: 300px;
+              }
+
+            </style>
+            <div class="widget">
+              <iframe src="https://stuyspec.com/department/news" frameborder="0" class="iframeContent"></iframe>
+            </div>
+      </article>
+    </main>
+      <div class="home-content-2">
+        
+    </div>
+   
+  </div>
+     
+</section>
+</div> 
+<footer class="sticky-footer">
+  <div class="footer-content">
+    <ul class="socials">
+      <li><a href="https://www.instagram.com/mufeiandjohanna?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class='bx bxl-instagram'></i></a></li>
+      <li><a href="https://www.facebook.com/StuyFreshmanCaucus"><i class='bx bxl-facebook'></i></a></li>
+  </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>Copyright &copy;2024 .designed by <span>Taofiq</span></p>
+  </div>
+</footer>
+<script src="./script.js"></script>
+
+
+     </body>
+    
+     
+   
+         
 </html>
